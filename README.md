@@ -1,10 +1,10 @@
-# saucedemo-web-testing
+# upload-web-testing
 
-Web testing with Serenity BDD.
+Simple upload feature testing example in web platform using Serenity BDD.
 
 ## Notes
 
-- The web application that is used for testing is [saucedemo.com](https://www.saucedemo.com/).
+- The specific example for testing the upload feature can be checked in `uploadFile()` method in `UploadPage` class.
 - Inside the `src/test/resources/webdriver`, make sure to replace the chrome driver based on the operating system and Chrome version. Download the available Chrome driver in [here](https://chromedriver.chromium.org/downloads).
 - For Windows user, make sure change the `webdriver.chrome.driver` value with `.exe` in the end. For example:
 
